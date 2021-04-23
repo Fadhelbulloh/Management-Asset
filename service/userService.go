@@ -3,9 +3,10 @@ package service
 import (
 	"errors"
 	"log"
-	"management-asset/model"
-	"management-asset/repository"
 	"time"
+
+	"github.com/Fadhelbulloh/Management-Asset/model"
+	"github.com/Fadhelbulloh/Management-Asset/repository"
 
 	"github.com/renstrom/shortuuid"
 	"golang.org/x/crypto/bcrypt"

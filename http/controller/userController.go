@@ -2,9 +2,10 @@ package controller
 
 import (
 	"log"
-	"management-asset/model"
-	"management-asset/service"
 	"net/http"
+
+	"github.com/Fadhelbulloh/Management-Asset/model"
+	"github.com/Fadhelbulloh/Management-Asset/service"
 
 	"github.com/gin-gonic/gin"
 )

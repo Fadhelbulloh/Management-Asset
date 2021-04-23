@@ -1,4 +1,4 @@
-module management-asset
+module github.com/Fadhelbulloh/Management-Asset
 
 go 1.13
 

@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 	"log"
-	"management-asset/http/router"
-	"management-asset/repository/mongodb"
-	"management-asset/service"
 	"os"
 	"os/signal"
 	"syscall"
+
+	"github.com/Fadhelbulloh/Management-Asset/http/router"
+	"github.com/Fadhelbulloh/Management-Asset/repository/mongodb"
+	"github.com/Fadhelbulloh/Management-Asset/service"
 
 	"github.com/gin-gonic/gin"
 	"github.com/subosito/gotenv"

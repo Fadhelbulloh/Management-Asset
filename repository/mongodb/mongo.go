@@ -4,8 +4,9 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"management-asset/model"
 	"strings"
+
+	"github.com/Fadhelbulloh/Management-Asset/model"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

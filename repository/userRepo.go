@@ -1,6 +1,6 @@
 package repository
 
-import "management-asset/model"
+import "github.com/Fadhelbulloh/Management-Asset/model"
 
 type Repository interface {
 	FindAll(sortBy, sortType, search string) ([]model.User, error)

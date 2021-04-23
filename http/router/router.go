@@ -1,8 +1,8 @@
 package router
 
 import (
-	"management-asset/http/controller"
-	"management-asset/service"
+	"github.com/Fadhelbulloh/Management-Asset/http/controller"
+	"github.com/Fadhelbulloh/Management-Asset/service"
 
 	"github.com/gin-gonic/gin"
 )
