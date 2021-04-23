@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"os"
 	"strings"
 
 	"github.com/Fadhelbulloh/Management-Asset/model"
@@ -15,7 +16,6 @@ import (
 )
 
 const (
-	db  = "management"
 	col = "user"
 )
 
@@ -35,7 +35,7 @@ type repo struct {
 }
 
 func NewMongoRepo(client *mongo.Client) *repo {
-	return &repo{db: client.Database(db)}
+	return &repo{db: client.Database(os.Getenv("MONGO_DB"))}
 }
 
 func (rep *repo) FindAll(sortBy, sortType, search string) ([]model.User, error) {
